@@ -8702,10 +8702,14 @@
                     className: "site",
                     children: [(0, i.jsxs)("div", {
                         className: "meta",
-                        children: [(0, i.jsx)("span", {
+                        children: [(0, i.jsx)("img", {
+                            width: "30rem",
+                            height: "30rem",
+                            src: "https://www.thatapi.cn/private/web/logo/byte?url="+e.url,
+                        }),(0, i.jsx)("span", {
                             className: "name",
-                            dangerouslySetInnerHTML: {__html: e.name}
-                        }), u && (0, i.jsx)(l, {
+                            dangerouslySetInnerHTML: {__html: "  "+e.name}
+                        }),u && (0, i.jsx)(l, {
                             className: "link",
                             to: e.url,
                             text: e.name
