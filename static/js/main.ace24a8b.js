@@ -8703,6 +8703,7 @@
                     children: [(0, i.jsxs)("div", {
                         className: "meta",
                         children: [(0, i.jsx)("img", {
+                            className: "imgLogo",
                             width: "30rem",
                             height: "30rem",
                             src: "https://www.thatapi.cn/private/web/logo/byte?url="+e.url,
