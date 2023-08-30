@@ -8724,7 +8724,7 @@
                         }))
                     }), (0, i.jsxs)("div", {
                         className: "summary",
-                        children: [(0, i.jsx)("span", {children: "\u4eca\u5929"}), (0, i.jsx)("span", {children: e.total.times ? "\u6700\u8fd1 ".concat(a, " \u5929\u6545\u969c ").concat(e.total.times, " \u6b21\uff0c\u7d2f\u8ba1 ").concat(kn(e.total.duration), "\uff0c\u5e73\u5747\u53ef\u7528\u7387 ").concat(e.average, "%") : "\u6700\u8fd1 ".concat(a, " \u5929\u53ef\u7528\u7387 ").concat(e.average, "%")}), (0, i.jsx)("span", {children: e.daily[e.daily.length - 1].date.format("YYYY-MM-DD")})]
+                        children: [(0, i.jsx)("span", {children: ""}), (0, i.jsx)("span", {children: e.total.times ? "最近 ".concat(a, " 天可用率 ").concat(e.average, "%").concat( "\n故障 ").concat(e.total.times, " 次\n累计 ",kn(e.total.duration)) : "最近 ".concat(a, " 天可用率 ").concat(e.average, "%")}), (0, i.jsx)("span", {children: e.daily[e.daily.length - 1].date.format("YYYY-MM-DD")})]
                     }), (0, i.jsx)(fn, {className: "tooltip", place: "top", type: "dark", effect: "solid"})]
                 }, e.id)
             })) : (0, i.jsx)("div", {className: "site", children: (0, i.jsx)("div", {className: "loading"})})
