@@ -8725,7 +8725,7 @@
                         }))
                     }), (0, i.jsxs)("div", {
                         className: "summary",
-                        children: [(0, i.jsx)("span", {children: ""}), (0, i.jsx)("span", {children: e.total.times ? "最近 ".concat(a, " 天可用率 ").concat(Math.round(e.average).toString(), "% ").concat( "\n故障 ").concat(e.total.times, " 次\n累计 ",kn(e.total.duration)) : "最近 ".concat(a, " 天可用率 ").concat(e.average, "%")}), (0, i.jsx)("span", {children: e.daily[e.daily.length - 1].date.format("YYYY-MM-DD")})]
+                        children: [(0, i.jsx)("span", {children: ""}), (0, i.jsx)("span", {children: e.total.times ? "最近 ".concat(a, " 天可用率 ").concat(Math.round(e.average).toString(), "%  ").concat( "\n故障 ").concat(e.total.times, " 次\n累计 ",kn(e.total.duration)) : "最近 ".concat(a, " 天可用率 ").concat(e.average, "% ")}), (0, i.jsx)("span", {children: e.daily[e.daily.length - 1].date.format("YYYY-MM-DD")})]
                     }), (0, i.jsx)(fn, {className: "tooltip", place: "top", type: "dark", effect: "solid"})]
                 }, e.id)
             })) : (0, i.jsx)("div", {className: "site", children: (0, i.jsx)("div", {className: "loading"})})
