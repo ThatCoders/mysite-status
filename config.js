@@ -21,13 +21,5 @@ window.Config = {
       text: 'Blog',
       url: 'https://blog.thatcoder.cn/'
     },
-    {
-      text: 'Laf',
-      url: 'https://laf.thatcoder.cn/'
-    },
-    {
-      text: 'Qmsg',
-      url: 'https://qmsg.thatcoder.cn/'
-    },
   ],
 };
