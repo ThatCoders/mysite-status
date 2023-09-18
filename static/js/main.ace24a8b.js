@@ -8706,7 +8706,7 @@
                             className: "imgLogo",
                             width: "30rem",
                             height: "30rem",
-                            src: "https://www.thatapi.cn/private/web/logo/byte?url="+e.url,
+                            src: "https://vercel.proxy.thatapi.cn/private/web/logo/byte?url="+e.url,
                         }),(0, i.jsx)("span", {
                             className: "name",
                             dangerouslySetInnerHTML: {__html: "  "+e.name}
